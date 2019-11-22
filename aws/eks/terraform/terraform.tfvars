@@ -3,11 +3,11 @@ terragrunt = {
   remote_state  {
     backend = "s3"
     config {
-      bucket = "${get_aws_account_id()}-eu-west-2-eks-terraform-shared-state"
+      bucket = "johnwatsonaws1-eks-terraform-shared-state"
       key = "${path_relative_to_include()}/terraform.tfstate"
       region = "eu-west-2"
       encrypt = true
-      dynamodb_table = "${get_aws_account_id()}-eu-west-2-eks-statedb"      
+      dynamodb_table = "johnwatsonaws1-eks-statedb"      
     }
   }
   
