@@ -1,2 +1,2 @@
-# terragrunt
+# Terragrunt
 Terragrunt scripts
