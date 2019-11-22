@@ -3,7 +3,6 @@ region = "eu-west-2"
 location = "London"
 loc      = "LDN"
 service {
-
   "code"   = "EKS"
   "name"   = "EKS Cluster"
   "type"   = "EKS"
