@@ -6,4 +6,7 @@
 *.tfstate.*
 
 # .tfvars files
-*.tfvars
+#*.tfvars
+
+# Local .terragrunt cache
+**/.terragrunt-cache/
