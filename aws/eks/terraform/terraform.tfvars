@@ -11,7 +11,7 @@ terragrunt = {
   }
   
   terraform {
-    source = "git::git@github.com:johnwatson484/terraform.git//aws//eks//eks_cluster"
+    source = "git::git@github.com:johnwatson484/terraform.git//aws//eks2//eks_cluster"
     extra_arguments "bucket" {
     commands = ["${get_terraform_commands_that_need_vars()}"]
     optional_var_files = [
